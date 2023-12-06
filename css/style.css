@@ -5,26 +5,49 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-image: url(../img/cordefundo.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 main{
-    background-color: white;
-    height: 600px;
+    height: 700px;
 }
 
 img{
-    width: 280px;
+    width: 250px;
 }
 
 
 header{
+    padding-top: 40px;
+    margin-bottom: 5px;
     height: 150px;
     width: 100%;
-    background-color: black;
+    background-color: rgba(128, 128, 128, 0.438);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.295);
+}
+
+.link-container{
+    padding-top: 20px;
     display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
 }
 
 h1{
-    color: aqua;
+    color: black;
     align-items: center;
     display: flex;
     padding-left: 600px;
@@ -35,6 +58,21 @@ section{
     flex-direction: column;
     align-items: center;
 }
+
+.card-section{
+    height: 750px;
+    background-color: white;
+}
+
+
+.gallery-section{
+    display: grid;
+    grid-template-columns: 380px 380px 380px 380px;
+    padding: 50px;
+    background-color: white;
+    
+}
+
 
 .name{
     padding-bottom: 10px;
@@ -53,12 +91,28 @@ section{
 .card{
     cursor: pointer;
     background-color: white;
-    height: 500px;
-    width: 280px;
+    height: 450px;
+    width: 250px;
     border-radius: 10px;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.267);
     transition: 0.3s;
 }
+
+.card-gallery{
+    cursor: pointer;
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.267);
+    transition: 0.3s;
+}
+
+.img-gallery{
+    height: 300px;
+    width: 350px;
+}
+
 
 .card:hover{
     transform: scale(1.03);
@@ -71,4 +125,20 @@ section{
 footer{
     height: 75px;
     background-color: rgb(99, 94, 94);
+}
+
+.apresentacao-titulo{
+    padding-top: 10px;
+    text-align: center;   
+}
+
+
+.galeria-titulo{
+    color: white;
+    padding-top: 10px;
+    text-align: center;   
+}
+
+.about-me{
+    font-size: 0.9em;
 }
