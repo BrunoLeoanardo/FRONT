@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href=" ../css/galeria.css">
     <link rel="stylesheet" href=" ../css/style.css">
 </head>
 <body>
+    
     <header>
-        <h1>Atividade de Front-End</h1>
+        <h1>Galeria de Imagens</h1>
         <nav class="link-container">
             <a href="../index.html" class="link">Apresentação</a>
             <a href="./galeria.html" class="link">Galeria</a>
@@ -16,37 +18,40 @@
         </nav>
     </header>
 
-    <section class="gallery-section">
-        <div class="card-gallery">
-            <img class="img-gallery" src="../img/galeria/italo_ong_corda.jpeg">
-            <section class="info-container">
-                <h2 class="name"></h2>
-                <p class="about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit culpa magni laborum minus distinctio ullam. Corrupti ex laboriosam veritatis, magni a beatae neque! Officiis id impedit repudiandae molestiae maxime beatae?</p>
-            </section>
-        </div>
-        <div class="card-gallery">
-            <img class="img-gallery" src="../img/galeria/italo_ong_corda.jpeg">
-            <section class="info-container">
-                <h2 class="name"></h2>
-                <p class="about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit culpa magni laborum minus distinctio ullam. Corrupti ex laboriosam veritatis, magni a beatae neque! Officiis id impedit repudiandae molestiae maxime beatae?</p>
-            </section>
-        </div>
-        <div class="card-gallery">
-            <img class="img-gallery" src="../img/galeria/italo_ong_corda.jpeg">
-            <section class="info-container">
-                <h2 class="name"></h2>
-                <p class="about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit culpa magni laborum minus distinctio ullam. Corrupti ex laboriosam veritatis, magni a beatae neque! Officiis id impedit repudiandae molestiae maxime beatae?</p>
-            </section>
-        </div>
-        <div class="card-gallery">
-            <img class="img-gallery" src="../img/galeria/italo_ong_corda.jpeg">
-            <section class="info-container">
-                <h2 class="name"></h2>
-                <p class="about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit culpa magni laborum minus distinctio ullam. Corrupti ex laboriosam veritatis, magni a beatae neque! Officiis id impedit repudiandae molestiae maxime beatae?</p>
-            </section>
-        </div>
+    <button id="dark" onclick="darkMode()">Dark Mode</button>
+
+        <section class="gallery-section">
         
+        <div class="card-gallery">
+            <img class="img-gallery" src="../img/galeria/italo_ong_corda.jpeg">
+            <section class="info-container">
+                <h2 class="name">Brincadeiras</h2>
+                <p class="about-me">Brincadeiras na ONG</p>
+            </section>
+        </div>
+        <div class="card-gallery">
+            <img class="img-gallery" src="../img/galeria/reuniao.jpeg">
+            <section class="info-container">
+                <h2 class="name">Reuniões</h2>
+                <p class="about-me">Reunião sobre o trabalho</p>
+            </section>
+        </div>
+        <div class="card-gallery">
+            <img class="img-gallery" src="../img/galeria/reuniao2.jpeg">
+            <section class="info-container">
+                <h2 class="name">Reuniões</h2>
+                <p class="about-me">Reunião sobre o trabalho</p>
+            </section>
+        </div>
+        <div class="card-gallery">
+            <img class="img-gallery" src="../img/galeria/reuniao3.jpeg">
+            <section class="info-container">
+                <h2 class="name">Apresentação</h2>
+                <p class="about-me">Atividade na ONG OAF do Recife</p>
+            </section>
+        </div>
     </section>
     <footer></footer>
+    <script src="../script.js"></script>
 </body>
 </html>
